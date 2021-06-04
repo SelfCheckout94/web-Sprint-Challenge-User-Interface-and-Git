@@ -183,13 +183,13 @@ header nav a {
     margin-top: 1.5%;
 }
 
-#splSec {
+#inSplSec {
     display: flex;
     justify-content: center;
     margin-bottom: 1%;
 }
 
-.splash {
+#inSpl {
     background-image: url(../img/jumbo.jpg);
     background-repeat: no-repeat;
     padding: 5%;
@@ -235,4 +235,36 @@ header nav a {
 
 #b10 {
     background-color: dodgerblue;  
+}
+
+/* NEW STYLINGS FOR ABOUT */
+
+#inAbSec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+#abSpl {
+    background-image: url(../img/jumbo-about.png);
+    background-repeat: no-repeat;
+    padding: 10%;
+    width: 100%;
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 1%;
+}
+
+.mainContent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.contentBlocks {
+    width: 47%;
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
 }
