@@ -156,15 +156,14 @@ header {
     justify-content: space-around;
     padding: 2%;
     padding-top: 1%;
-    margin: 0 20%;
+    margin: 0 22%;
 }
 
 header nav {
     width:60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
-    margin-right: 5%;
 }
 
 .topNav {
@@ -191,7 +190,7 @@ header nav a {
     background-image: url(../img/jumbo.jpg);
     background-repeat: no-repeat;
     padding: 5%;
-    width: 48.4%;
+    width: 42.278%;
     
 }
 
