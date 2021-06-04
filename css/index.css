@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -69,6 +68,11 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
@@ -143,4 +147,142 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* NEW STYLINGS FOR INDEX*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    padding-top: 1%;
+    margin: 0 22%;
+}
+
+header nav {
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.topNav {
+    font-size: 1rem;
+}
+
+header div {
+    margin-left: 5%;
+}
+
+header nav a {
+    height: 2vh;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+#inSplSec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+#inSpl {
+    background-image: url(../img/jumbo.jpg);
+    background-repeat: no-repeat;
+    padding: 5%;
+    width: 42.278%;
+    
+}
+
+#b1 {
+    background-color: teal;  
+}
+
+#b2 {
+    background-color: gold;  
+}
+
+#b3 {
+    background-color: cadetblue;  
+}
+
+#b4 {
+    background-color: coral;  
+}
+
+#b5 {
+    background-color: crimson;  
+}
+
+#b6 {
+    background-color: forestgreen;  
+}
+
+#b7 {
+    background-color: darkorchid;  
+}
+
+#b8 {
+    background-color: hotpink;  
+}
+
+#b9 {
+    background-color: indigo;  
+}
+
+#b10 {
+    background-color: dodgerblue;  
+}
+
+/* NEW STYLINGS FOR ABOUT */
+
+#inAbSec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+#abSpl {
+    background-image: url(../img/jumbo-about.png);
+    background-repeat: no-repeat;
+    padding: 10%;
+    width: 100%;
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    padding: 2%;
+}
+
+.mainContent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.contentBlocks {
+    width: 47%;
+    padding: 1% 0 3%;
+    margin: 4% 0;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentBlocks h2 {
+    margin: 4% 0;
+}
+
+.learnMore {
+    padding: 3% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 6%;
+    width: 33%;
+}
+
+.botContent {
+    padding: 0 2%;
+    margin: 3% 0 4%;
 }
